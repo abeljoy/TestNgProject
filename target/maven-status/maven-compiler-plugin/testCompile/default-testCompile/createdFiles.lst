@@ -1,0 +1,6 @@
+testCases\TC2_ListFlights.class
+testCases\TC4_VerifyNavigation.class
+testCases\TC1_HomePageVerification.class
+testCases\TC3_VerifySearchPage.class
+testCases\Annotations.class
+testCases\Assertions.class

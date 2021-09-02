@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="destination" value="Mumbai, India (BOM)"/>
+  <parameter name="source" value="Kochi, India (COK)"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="testCases.TC4_VerifyNavigation">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="setUp"/>
+          <include name="userSelectReprintTicket"/>
+          <include name="verifySignin"/>
+          <include name="getParentWindow"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.TC4_VerifyNavigation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
